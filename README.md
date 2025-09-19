@@ -65,12 +65,28 @@
 1. Clone this repo into custom_nodes folder.
 1. Install dependencies: pip install -r requirements.txt
 
-### Usage
+### Download Model Weights
 
+1. Download the appropriate weights for your setup:
+
+   * **FP16 weights**:  
+     https://huggingface.co/decart-ai/Lucy-Edit-Dev-ComfyUI/resolve/main/lucy-edit-dev-cui-fp16.safetensors
+
+   * **FP32 weights**:  
+     https://huggingface.co/decart-ai/Lucy-Edit-Dev-ComfyUI/resolve/main/lucy-edit-dev-cui.safetensors
+
+2. Place the weights under: `models/diffusion_models/`
+
+### Usage
+Please refer to the "Prompting Guidelines & Supported Edits" section for the best experience.
+
+#### Lucy Edit Pro (API)
 1. Load the workflow from `examples/basic-api-lucy-edit.json`.
 1. Get an api key from: https://platform.decart.ai/.
 
-Please refer to the "Prompting Guidelines & Supported Edits" section for the best experience.
+
+#### Lucy Edit Dev (Local)
+1. Load the workflow from `examples/basic-lucy-edit-dev.json`
 
 ## 🎬 Demos
 
@@ -138,7 +154,8 @@ Note: The prompts above are not enriched, the model will react better to enriche
 ## 🧭 Roadmap
 
 * ✅ API based custom nodes.
-* [ ] local inference custom nodes.
+* ✅ local inference custom nodes.
+* [ ] Add support for Lucy Edit Dev/Image API
 
 ## 🔥 Latest News
 - **[2025-09-17]**: Initial **Lucy Edit Dev** weights & reference code released.
