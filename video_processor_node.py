@@ -112,12 +112,16 @@ class LucyConditionConcatNode:
         model = model.clone()
 
         # Get the concatenation latent tensor
-        concat_tensor = concat_latent["samples"]
+        concat_tensor = concat_latent["samples"].clone()
+
+        # Normalize the concat_tensor with the same parameters as the main latent
+        if hasattr(model.model, 'process_latent_in'):
+            concat_tensor = model.model.process_latent_in(concat_tensor)
 
         # Store the concat latent in model options for proper handling
         # This will be used during the diffusion process
         model.model_options = model.model_options.copy()
-  
+
         # Initialize the latent tensor
         latent = torch.zeros_like(concat_tensor)
 
