@@ -140,7 +140,7 @@ Please refer to the "Prompting Guidelines & Supported Edits" section for the bes
     Your browser does not support the video tag.
   </video>
   <br/>
-  <em>2.3) Change the shit to a Manchester United jersey.</em>
+  <em>2.3) Change the shirt to a Manchester United jersey.</em>
 </td>
 </tr>
 </table>
