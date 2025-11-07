@@ -1,8 +1,9 @@
 # Lucy Edit - ComfyUI
 
 <p align="center">
-  <img src="assets/logo.png" width="680" alt="Lucy Edit Dev Logo"/>
+  <img width="680" height="399" alt="Lucy Edit Dev Logo" src="https://github.com/user-attachments/assets/a70c9eda-36d8-459a-8204-e5eca520dcb0" />
 </p>
+
 
 <p align="center">
   🧪 <a href="http://github.com/DecartAI/lucy-edit-comfyui"><b>GitHub</b></a>
