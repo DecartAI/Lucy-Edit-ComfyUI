@@ -6,7 +6,7 @@
 
 <p align="center">
   🧪 <a href="http://github.com/DecartAI/lucy-edit-comfyui"><b>GitHub</b></a>
-  &nbsp;|&nbsp; 🤗 <a href="https://huggingface.co/decart-ai/Lucy-Edit-Dev">Huggingface</a>
+  &nbsp;|&nbsp; 🤗 <a href="https://huggingface.co/decart-ai/Lucy-Edit-1.1-Dev">Huggingface</a>
   &nbsp;|&nbsp; 📖 <a href="https://platform.decart.ai">Playground</a>
   &nbsp;|&nbsp; 📑 <a href="https://d2drjpuinn46lb.cloudfront.net/Lucy_Edit__High_Fidelity_Text_Guided_Video_Editing.pdf">Technical Report</a>
   &nbsp;|&nbsp; 💬 <a href="https://discord.gg/decart">Discord</a>
@@ -70,10 +70,10 @@
 1. Download the appropriate weights for your setup:
 
    * **FP16 weights**:  
-     https://huggingface.co/decart-ai/Lucy-Edit-Dev-ComfyUI/resolve/main/lucy-edit-dev-cui-fp16.safetensors
+     https://huggingface.co/decart-ai/Lucy-Edit-Dev-ComfyUI/resolve/main/lucy-edit-1.1-dev-cui-fp16.safetensors
 
    * **FP32 weights**:  
-     https://huggingface.co/decart-ai/Lucy-Edit-Dev-ComfyUI/resolve/main/lucy-edit-dev-cui.safetensors
+     https://huggingface.co/decart-ai/Lucy-Edit-Dev-ComfyUI/resolve/main/lucy-edit-1.1-dev-cui.safetensors
 
 2. Place the weights under: `models/diffusion_models/`
 
