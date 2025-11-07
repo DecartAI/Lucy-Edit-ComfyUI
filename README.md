@@ -159,6 +159,7 @@ Note: The prompts above are not enriched, the model will react better to enriche
 * [ ] Add support for Lucy Edit Dev/Image API
 
 ## 🔥 Latest News
+- **[2025-11-07]**: **Lucy Edit 1.1 Dev** Weights released on huggingface and ComfyUI.
 - **[2025-09-17]**: Initial **Lucy Edit Dev** weights & reference code released.
 - **[2025-09-16]**: Diffusers integration PR Merged. <a href="https://github.com/huggingface/diffusers/pull/12340">PR #12340</a>.
 - **[2025-09-16]**: Diffusers integration PR opened. <a href="https://github.com/huggingface/diffusers/pull/12340">PR #12340</a>.
