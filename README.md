@@ -273,6 +273,14 @@ User: “make it autumn with leaves”
 ```
 ---
 
+## License
+
+The code in this repository is licensed under the [MIT License](LICENSE).
+
+The Lucy Edit model weights are distributed separately under the [Lucy Edit 5B Model Community Licensing Agreement](https://drive.google.com/file/d/1pX34A-UOEl9CErMUZKdKzhoWhtSI1TJK/view), which permits non-commercial use only. For commercial use, contact contact@decart.ai.
+
+---
+
 ## 📬 Contact
 
 * GitHub Issues: <a href="http://github.com/DecartAI/Lucy-Edit-ComfyUI">DecartAI/lucy-edit</a>.
