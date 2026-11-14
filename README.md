@@ -11,6 +11,7 @@
   &nbsp;|&nbsp; 📖 <a href="https://platform.decart.ai">Playground</a>
   &nbsp;|&nbsp; 📑 <a href="https://d2drjpuinn46lb.cloudfront.net/Lucy_Edit__High_Fidelity_Text_Guided_Video_Editing.pdf">Technical Report</a>
   &nbsp;|&nbsp; 💬 <a href="https://discord.gg/decart">Discord</a>
+  &nbsp;|&nbsp; ☁️ <a href="https://cloud.swmgpu.com/w/samofvaani/lucy-edit-video-studio">swm cloud</a>
 </p>
 
 ---
@@ -88,6 +89,7 @@ Please refer to the "Prompting Guidelines & Supported Edits" section for the bes
 
 #### Lucy Edit Dev (Local)
 1. Load the workflow from `examples/basic-lucy-edit-dev.json`
+1. *(Optional)* No local 24GB+ GPU? Launch pre-loaded on [swm cloud](https://cloud.swmgpu.com/w/samofvaani/lucy-edit-video-studio) with `Lucy-Edit-Dev` and `Wan-2.2` weights ready.
 
 ## 🎬 Demos
 
